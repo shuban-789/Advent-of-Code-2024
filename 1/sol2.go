@@ -21,7 +21,7 @@ func abs(n int) int {
 	return n
 }
 
-func occurances(a []int, n int) int {
+func occurences(a []int, n int) int {
 	ret := 0
 	for i := 0; i < len(a); i++ {
 		if a[i] == n {
