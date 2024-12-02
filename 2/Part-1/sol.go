@@ -2,18 +2,18 @@ package main
 
 import (
 	"fmt"
-    "bufio"
+	"bufio"
     "strings"
-    "strconv"
+	"strconv"
 	"sort"
 	"reflect"
 	"os"
 )
 
 func handleError(err error) {
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 }
 
 func abs(x int) int {
@@ -42,27 +42,27 @@ func incrementCheck(arr []int) bool {
 
 func main() {
 	var matrix [][]int
-    file, err := os.Open("input.txt")
+	file, err := os.Open("input.txt")
 	if err != nil {
 		panic(err)
 	}
 	defer file.Close()
-    scanner := bufio.NewScanner(file)
-    for scanner.Scan() {
-        line := scanner.Text()
-        if line == "" {
-            break
-        }
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		line := scanner.Text()
+		if line == "" {
+			break
+		}
 
-        arr := strings.Fields(line)
+		arr := strings.Fields(line)
 		var row []int
-        for i := 0; i < len(arr); i++ {
+		for i := 0; i < len(arr); i++ {
 			num, err := strconv.Atoi(arr[i])
 			handleError(err)
 			row = append(row, num,)
 		}
 		matrix = append(matrix, row)
-    }
+	}
 
 	safe := 0
 	for i := 0; i < len(matrix); i++ {
