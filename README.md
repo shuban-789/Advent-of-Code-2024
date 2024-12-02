@@ -6,9 +6,7 @@ Let's see how far I get :D
 
 Stars: ⭐⭐⭐⭐
 
-| ------- |------------- |
---------------------------
-| Day 1 | Solved ✅ |
+Day 1: Solved ✅ 
 
 Day 2: Solved ✅
 
