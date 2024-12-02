@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"bufio"
-    "strings"
+	"strings"
 	"strconv"
 	"sort"
 	"reflect"
