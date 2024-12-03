@@ -4,13 +4,13 @@ Let's see how far I get :/
 
 ## Current Stats
 
-Stars: ⭐⭐⭐⭐
+Stars: ⭐⭐⭐⭐⭐⭐
 
 | Day | Status          |
 |-----|-----------------|
 | 1   | Solved ✅       |
 | 2   | Solved ✅       |
-| 3   | Not Attempted   |
+| 3   | Solved ✅       |
 | 4   | Not Attempted   |
 | 5   | Not Attempted   |
 | 6   | Not Attempted   |
