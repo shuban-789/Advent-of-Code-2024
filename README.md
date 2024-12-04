@@ -4,7 +4,7 @@ Let's see how far I get :/
 
 ## Current Stats
 
-Stars: ⭐⭐⭐⭐⭐⭐
+Stars: ⭐⭐⭐⭐⭐⭐⭐⭐
 
 | Day | Status          |
 |-----|-----------------|
