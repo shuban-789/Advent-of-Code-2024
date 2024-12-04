@@ -4,7 +4,7 @@ import (
     "fmt"
     "bufio"
     "os"
-	"strings"
+"strings"
 )
 
 func horizontal(grid [][]string, x int, y int) int {
