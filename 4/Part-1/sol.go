@@ -1,9 +1,9 @@
 package main
 
 import (
-    "fmt"
-    "bufio"
-    "os"
+   "fmt"
+   "bufio"
+   "os"
    "strings"
 )
 
